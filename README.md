@@ -1,6 +1,5 @@
 # Sales and Profit Insights Dashboard (Excel)
 
-
 - Sheets used:
   - `Data` – raw transactional data with Revenue, Expenses, Profit, Category, Region, Department, Product Line, Customer Segment, Payment Method, and Discount.
   - `Pivot 1` to `Pivot 5` – supporting pivot tables for the dashboard.
@@ -58,4 +57,29 @@ The goal of this dashboard is to help the business understand how revenue, expen
 - Europe: 314 transactions.  
 - North America: 411 transactions.  
 - South America: 199 transactions.  
-- Grand Total
+- Grand Total: 2,000 transactions.  
+
+### By Department (Average Expenses – Pivot 5)
+
+- Finance: 15,749.48 average expenses.  
+- HR: 17,351.54 average expenses.  
+- IT: 16,810.53 average expenses.  
+- Marketing: 16,478.30 average expenses.  
+- Operations: 17,174.34 average expenses.  
+- Sales: 16,627.72 average expenses.  
+
+## Steps Followed
+
+- Step 1: Loaded the transactional data into the `Data` sheet in Excel.  
+- Step 2: Checked data types, ensured numeric columns for Revenue, Expenses, Profit, and validated key dimension fields (Region, Department, Product Line, etc.).  
+- Step 3: Created multiple PivotTables (Pivot 1–Pivot 5) to summarize Profit by Region & Product Line, Revenue by Product Line, full P&L by Department, transaction count by Region, and average Expenses by Department.  
+- Step 4: Built charts (column, bar, and pie charts) against these PivotTables and moved them to the `Dashboard` sheet.  
+- Step 5: Added slicers for fields such as Region, Department, Product Line, Customer Segment, and Payment Method to enable interactive filtering.  
+- Step 6: Linked slicers to relevant PivotTables so that charts update dynamically based on user selections.  
+- Step 7: Applied consistent formatting, titles, and color theme to improve dashboard readability and presentation.  
+
+## How to Use the Dashboard
+
+- Open `Sales and Profit Insights Dashboard (Excel).xlsx` and go to the `Dashboard` sheet.  
+- Use slicers (Region, Department, Product Line, Customer Segment, Payment Method) to filter the view and explore how Revenue, Expenses, and Profit change across segments.  
+- Hover over charts for detailed values and use the pivot tables (Pivot 1–5) if detailed numeric breakdown is required.  
